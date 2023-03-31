@@ -8,3 +8,4 @@ class Portfolio_Item(models.Model):
     tech = models.CharField(max_length=100)
     desc = models.TextField()
     website = models.CharField(max_length=100, default = "https://aserene.dev")
+    github = models.CharField(max_length=100, default = "https://github.com/aserene")
